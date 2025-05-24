@@ -14,7 +14,16 @@
     "lint:frontend": "cd frontend && npm run lint",
     "lint:backend": "cd backend && npm run lint"
   },
-  "keywords": ["resume", "devops", "docker", "react", "nodejs"],
+  "keywords": [
+    "resume",
+    "devops",
+    "docker",
+    "react",
+    "nodejs"
+  ],
   "author": "Your Name",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "react-scripts": "^5.0.1"
+  }
 }
