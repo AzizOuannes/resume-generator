@@ -26,12 +26,6 @@ A full-stack web application that allows users to create professional resumes by
 - **Helmet** for security headers
 - **Compression** for response optimization
 
-### DevOps & Development
-- **TypeScript** for type safety across the stack
-- **Nodemon** for development hot-reloading
-- **ESLint** configuration for code quality
-- **Git** version control
-
 ## Quick Start
 
 ### Prerequisites
@@ -91,28 +85,5 @@ Open your browser and navigate to `http://localhost:3000`
 - `GET /api/status` - API status and available endpoints
 - `POST /api/generate-resume` - Generate PDF resume from form data
 
-## Project Structure
-
-```
-resume-generator/
-├── frontend/
-│   ├── public/
-│   ├── src/
-│   │   ├── App.tsx          # Main React component
-│   │   ├── index.tsx        # React entry point
-│   │   └── App.css          # Styles
-│   ├── package.json
-│   └── tsconfig.json
-├── backend/
-│   ├── src/
-│   │   ├── index.ts         # Express server
-│   │   ├── routes/          # API routes
-│   │   ├── services/        # PDF generation services
-│   │   └── types/           # TypeScript interfaces
-│   ├── package.json
-│   ├── tsconfig.json
-│   └── Dockerfile
-└── README.md
-```
 
 
